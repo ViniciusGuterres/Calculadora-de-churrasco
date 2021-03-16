@@ -16,27 +16,27 @@
     <div>
 
         <label for="mulheres-qnt">Mulheres</label>
-        <input type="text" id="mulheres-qnt">
+        <input type="number" id="mulheres-qnt">
 
         <label for="homens-qnt">Homens</label>
-        <input type="text" id="homens-qnt">
+        <input type="number" id="homens-qnt">
 
         <label for="criancas-qnt">Crianças</label>
-        <input type="text" id="criancas-qnt">
+        <input type="number" id="criancas-qnt">
         <br>
 
         <label for="acompanhamentos">acompanhamentos</label>
-        <input type="checkbox" id="acompanhamentos">
+        <input type="checkbox" id="acompanhamentos" value="true">
 
     </div>
 
     <div>
 
-        <label for="bebidas-alcoolicas">Bebidas Alcoolicas</label>
-        <input type="text" id="bebidas-alcoolicas">
+        <label for="bebidas-alcoolicas">Quantos bebem alcool</label>
+        <input type="number" id="bebidas-alcoolicas">
 
-        <label for="bebidas-nao-alcoolicas"></label>
-        <input type="text" id="bebidas-nao-alcoolicas">
+        <label for="bebidas-nao-alcoolicas">Quantos não bebem alcool</label>
+        <input type="number" id="bebidas-nao-alcoolicas">
         <br>
 
     </div>
@@ -50,19 +50,20 @@
         </div>
 
         <div>
-            <label for="total-acompanhamento">Total de Acompanhamentos</label>
+            <label for="total-acompanhamento" id="total-acompanhamento">Total de Acompanhamentos</label>
         </div>
 
         <div>
-            <label for="total-bebidas-alcoolicas">Total de bebidas Acoolicas</label>
+            <label for="total-bebidas-alcoolicas" id="total-bebidas-alcoolicas">Total de bebidas Acoolicas</label>
         </div>
 
         <div>
-            <label for="total-bebidas-nao-alcoolicas">Total de bebidas não alcoolicas</label>
+            <label for="total-bebidas-nao-alcoolicas" id="total-bebidas-nao-alcoolicas">Total de bebidas não alcoolicas</label>
         </div>
 
     </div>
 
 <script src="js/main.js"></script>
+<script src="js/validation.js"></script>
 </body>
 </html>
